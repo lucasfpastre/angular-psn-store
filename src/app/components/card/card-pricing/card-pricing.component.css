@@ -1,0 +1,39 @@
+.containerCardPricing {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #000000F0;
+  display: flex;
+  flex-direction: column;
+  color: #FEFEFE;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+}
+
+.titleCardPricing {
+  margin-bottom: 3px;
+
+}
+
+.dataCardPricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.consoleCardPricing {
+  display: flex;
+  flex-direction: row;
+}
+
+.consoleCardPricing > span {
+  font-weight: bolder;
+  color: #00FFFF;
+  margin-right: 10px;
+}
+
+.valueCardPricing {
+  margin-right: 20px;
+}

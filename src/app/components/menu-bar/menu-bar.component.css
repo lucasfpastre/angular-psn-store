@@ -1,0 +1,46 @@
+.containerMenuBar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.logoMenuBar {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.itemMenuBar {
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+}
+
+.itemMenuBar > ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.itemMenuBar > ul > li {
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.itemMenuBar > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itemMenuBar > ul > li > a:hover {
+  color: #0000FF;
+  font-weight: 500;
+}
